@@ -10,7 +10,7 @@ import java.util.List;
 
 /* Created by Arjun Gautam */
 @RestController
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("http://192.168.0.18:3000")
 public class UserController {
 
     @Autowired

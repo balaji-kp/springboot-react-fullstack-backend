@@ -10,7 +10,7 @@ import java.util.List;
 
 /* Created by Arjun Gautam */
 @RestController
-@CrossOrigin("http://192.168.0.18:3000")
+@CrossOrigin("http://ip172-18-0-64-cmpk49snupig00afuhu0-3000.direct.labs.play-with-docker.com:3000")
 public class UserController {
 
     @Autowired

@@ -10,7 +10,7 @@ import java.util.List;
 
 /* Created by Arjun Gautam */
 @RestController
-@CrossOrigin("http://65.0.95.17:3000")
+@CrossOrigin('${FRONTEND_ENDPOINT}')
 public class UserController {
 
     @Autowired

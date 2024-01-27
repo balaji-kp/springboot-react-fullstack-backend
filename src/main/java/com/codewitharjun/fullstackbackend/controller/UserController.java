@@ -10,7 +10,7 @@ import java.util.List;
 
 /* Created by Arjun Gautam */
 @RestController
-@CrossOrigin('${FRONTEND_ENDPOINT}')
+@CrossOrigin(${FRONTEND_ENDPOINT})
 public class UserController {
 
     @Autowired
